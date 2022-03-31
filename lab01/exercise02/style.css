@@ -11,14 +11,51 @@ Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
 */
 
+/* .outerbox {
+
+} */
+
+.cardbox {
+    height: fit-content;
+    width: 20%;
+    float: left;
+    border: 1px solid #9c9a9a;
+    padding-bottom: 16px;
+    margin: 16px;
+}
+
+.outerbox {
+    content: "";
+    display: table;
+    clear: both;
+    font-family: 'EB Garamond', serif;
+}
+
+.heading {
+    padding-left: 16px;
+}
+
+.cardbody{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+img {
+    border: 0px;
+    margin: 0px;
+}
+
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
-
+    .cardbox {
+        width: 40%;
+    }
 }
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
-
-    
+    .cardbox {
+        width: 90%;
+    }
 }

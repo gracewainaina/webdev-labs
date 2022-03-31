@@ -15,7 +15,6 @@ Add some style blocks below this line to style the card.
     width: 350px;
     border: 1px solid #9c9a9a;
     padding-bottom: 16px;
-    /* background-color: aquamarine; */
 }
 
 .heading {
@@ -31,9 +30,3 @@ img {
     border: 0px;
     margin: 0px;
   }
-
-/* #img_container {
-    height: 50px;
-    width: 100px;
-    background-color: aquamarine;
-} */
