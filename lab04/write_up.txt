@@ -1,0 +1,20 @@
+What is the value of SQLAlchemy?
+
+- It's abstraction in python makes communication with databases easier. It is also 
+database agnostic, meaning that the same commands can be used regardless of the 
+database one is interacting with.
+
+
+What is a model?
+
+- A Model instance is a Python object that represents a single database record (or row).
+An approach known as “Object Relational Mapping” allows a convenient way to manipulate data
+via the Python language.
+
+
+What is a view?
+
+- A term used to describe how a resource is rendered when requested from the server. For example, 
+a “List View” can be used for listing all of the resources present and creating new resources and 
+a “Detail View” can be used for reading, updating, and deleting individual resources.
+
